@@ -7,11 +7,12 @@ import {
     Dimensions,
     PixelRatio,
   } from 'react-native';
+import {SIZE_MATTERS_BASE_WIDTH, SIZE_MATTERS_BASE_HEIGHT} from 'react-native-dotenv'
   
   // iPhone6 尺寸
   const defaultDevice = {
-    width: 375,
-    height: 667
+    width:  SIZE_MATTERS_BASE_WIDTH || 375,
+    height: SIZE_MATTERS_BASE_HEIGHT || 667
   }
   
   // 设备的宽

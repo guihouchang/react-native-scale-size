@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/junhaotong/react-native-scale-size/issues"
   },
-  "homepage": "https://github.com/junhaotong/react-native-scale-size#readme"
+  "homepage": "https://github.com/junhaotong/react-native-scale-size#readme",
+  "dependencies": {
+    "react-native-dotenv": "^0.2.0"
+  }
 }
