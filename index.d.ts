@@ -1,2 +1,2 @@
-export var ScaleText: (size: number) => number;
-export var ScaleSize: (size: number) => number;
+export var __: (size: number) => number;
+export var _: (size: number) => number;

@@ -32,7 +32,7 @@ import {SIZE_MATTERS_BASE_WIDTH, SIZE_MATTERS_BASE_HEIGHT} from 'react-native-do
    * @param {number} size
    * @returns {number}
    */
-  export const ScaleText = size => {
+  export const __ = size => {
     size = Math.round(size * scale * fontScale);
     return size;
   }
@@ -42,7 +42,7 @@ import {SIZE_MATTERS_BASE_WIDTH, SIZE_MATTERS_BASE_HEIGHT} from 'react-native-do
    * @param {number} size
    * @returns {number}
    */
-  export const ScaleSize = size => {
+  export const _ = size => {
     size = Math.round(size * scale);
     return size;
   }
