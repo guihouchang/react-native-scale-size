@@ -8,7 +8,7 @@ import {
     PixelRatio,
   } from 'react-native';
 
-  import env from '../../.env';
+  import env from '../../env';
   // iPhone6 尺寸
   const defaultDevice = {
     width:  env.SIZE_MATTERS_BASE_WIDTH || 375,
